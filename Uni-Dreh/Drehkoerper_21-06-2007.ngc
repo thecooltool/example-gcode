@@ -1,0 +1,203 @@
+(Material Aluminium Durchmesser12mm -- bearbeitbare Laenge minimal 70mm / Nullpunkt: x=Drehachse z=ganz rechts am Werkstueck ca. 1mm ausserhalb __ x-Nullpunkt am besten mit der MetallLinienkoernerspitzesetzten / spitzer Drehstahl)
+(material aluminum diameter 12mm -- length 70mm or more / zero point: x=turning axis of the work piece z=1mm outside at the right end of the work piece)
+g0 x8 z0
+g1 x5.9 f15
+g1 z-65 f150
+g1 x5.8 f15
+g1 z0 f150
+g1 x5.7 f15
+g1 z-65 f150
+g1 x5.6 f15
+g1 z0 f150
+g1 x5.5 f15
+g1 z-65 f150
+g1 x5.4 f15
+g1 z-0 f150 
+g1 x5.3 f15
+g1 z-20 f150
+g1 x5.8
+g1 z-25
+g1 x5.5
+g1 x5.3 f15
+g1 x5.5 z-60 f150
+g1 x5.3 f5
+g1 z-64 f150
+g1 x5.2 f15
+g1 z-60 f150
+g1 x5.5
+g1 x5.1 z-25 f50
+g1 x5.8
+g1 z-20
+g1 x5.4
+g1 x5.2 f15
+g1 z0 f150
+g1 x5.1 f15
+g1 z-20 f150
+g1 x5.5
+g1 z-25
+g1 x5.3
+g1 x5.1 f15
+g1 x5.5 z-60 f150
+g1 x5.3
+g1 x5.1 f15
+g1 z-64 f150
+g1 x5.0 f15
+g1 z-60 f150
+g1 x5.5
+g1 x5.0 z-25 f60
+g1 x5.8
+g1 z-20
+g1 x5.2
+g1 x5.0 f15
+g1 z0 f150
+g1 x4.9 f15
+g1 z-20 f150
+g1 x5.8
+g1 z-25
+g1 x5.2
+g1 x4.9 f15
+g1 x5.5 z-60 f150
+g1 x4.9 f10
+g1 z-64 f150
+g1 x4.8 f15
+g1 z-60 f150
+g1 x5.5
+g1 x4.8 z-25 f60
+g1 x5.8
+g1 z-20
+g1 x5
+g1 x4.8 f15
+g1 z0 f150
+g1 x4.7 f15
+g1 z-20 f150
+g1 x5.8
+g1 z-25
+g1 x4.9
+g1 x4.7 f15
+g1 x5.5 z-60 f150
+g1 x4.7 f15
+g1 z-64 f150
+g1 x4.6 f15
+g1 z-60 f150
+g1 x5.5
+g1 x4.6 z-25 f50
+g1 x5.8
+g1 z-20
+g1 x4.8
+g1 x4.6 f15
+g1 z0 f150
+g1 x4.5 f15
+g1 z-20 f150
+g1 x5.5
+g1 z-25
+g1 x4.8
+g1 x4.5 f15
+g1 x5.5 z-60 f150
+g1 x4.8
+g1 x4.5 f15
+g1 z-64 f150
+g1 x4.4 f15
+g1 z-60 f150
+g1 x5.5
+g1 x4.4 z-25 f60
+g1 x5.8
+g1 z-20
+g1 x4.7
+g1 x4.4 f15
+g1 z0 f150
+g1 x4.3 f15
+g1 z-20 f150
+g1 x5.8
+g1 z-25
+g1 x4.5
+g1 x4.3 f15
+g1 x5.5 z-60 f150
+g1 x4.3 f10
+g1 z-64 f150
+g1 x4.2 f15
+g1 z-60 f150
+g1 x5.5
+g1 x4.2 z-25 f60
+g1 x5.8
+g1 z-20
+g1 x4.5
+g1 x4.2 f15
+g1 z0 f150
+g1 x4.1 f15
+g1 z-20 f150
+g1 x5.8
+g1 z-25
+g1 x4.3
+g1 x4.1 f15
+g1 x5.5 z-60 f150
+g1 x4.1 f10
+g1 z-64 f150
+g1 x5.9
+g1 z0
+g1 x4.0 f15
+g1 z-20 f150
+g1 x5.8
+g1 z-25
+g1 x4.2
+g1 x4.0 f15
+g1 x5.5 z-60 f150
+g1 x4.0 f10
+g1 z-64 f150
+g1 x5.5
+g1 z-60
+g1 x3.9 z-25 f60
+g1 x5.8
+g1 z-20
+g1 x4.1
+g1 x3.9 f15
+g1 z-18 f150
+g1 x4.5
+g1 z-10
+g1 x3.9 f15
+g1 z0 f150
+g1 x3.7 f15
+g1 z-10 f150
+g1 x4.5
+g1 z-18
+g1 x4.1
+g1 x3.7 f15
+g1 z-20 f150
+g1 x5.8
+g1 z-25
+g1 x4.1
+g1 x3.7 f15
+g1 x5.5 z-60 f150
+g1 x3.5 z-25 f60
+g1 x5.8
+g1 z-20
+g1 x3.5 f15
+g1 z-18 f150
+g1 x3.3 f15
+g1 z-20 f150
+g1 x5.8
+g1 z-25
+g1 x3.3 f15
+g1 x5.5 z-60 f150
+g1 x3.1 z-25 f60
+g1 x5.8
+g1 z-20
+g1 x3.1 f5
+g1 z-18 f150
+g1 x3 f15
+g1 z-20 f150
+g1 x5
+G18
+g3 x5 r-2.5 z-25 f10
+g1 x4.5
+g2 x4.5 r2.5 z-20
+g1 x4
+g3 x4 r2.5 z-25
+g1 x3.5
+g2 x3.5 r2.5 z-20 f8
+g1 x3
+g3 x3 r2.5 z-25 f5
+g1 x5.5 z-60 f150
+g1 x6
+g1 z0
+M02
+ 

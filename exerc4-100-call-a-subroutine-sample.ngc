@@ -1,0 +1,14 @@
+(before you can use this file, calling the subroutine, you have to make sure that the subroutine file 100.ngc)
+(has been copied to the folder ->home ->yourusername ->emc2 ->nc-files)
+g21 g61 f100 g40
+g0 z5
+o100 call [-8] [8] [3] [3.5] [4] [2] 
+o100 call [8] [-8] [3] [3.5] [4] [2] 
+g0 x-16 y-16
+g1 z-3.5 f50
+g1 y16
+g1 x16
+g1 y-16
+g1 x-16
+g0 z5
+m02

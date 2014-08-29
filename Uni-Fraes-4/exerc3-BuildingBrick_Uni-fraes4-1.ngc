@@ -1,0 +1,146 @@
+(Building Brick project - Uni-Fraes4 - material: foam 26x26x50 mm, tool: end mill 1.6 mm.)
+(zero point: Y-turning axis, X-rigth end of the material, Z-material surface.)
+(setting zero point: rotate A-axis until surface is even, move the tip of the endmill to the)
+(right end of the foam block, to the middle on Y-axis and)
+(then move down on the Z-axis until you almost touch the material.)
+(now home all axis)
+(turn down the feed override to 40%, then start, after a while you can turn feed override back to 100%)
+g61
+g0 z2
+g0 a0
+m03 S15000
+g0 x1 y14 (Planen/cleaning surface)
+g1 z-2 f100
+g1 y-14 f250
+g1 x0
+g1 y14
+g1 x-1
+g1 y-14
+g1 x-2
+g1 y14
+g1 x-3
+g1 y-14
+g1 x-4
+g1 y14
+g1 x-5
+g1 y-14
+g1 x-6
+g1 y14
+g1 x-7
+g1 y-14
+g1 x-8
+g1 y14
+g1 x-9
+g1 y-14
+g1 x-10
+g1 y14
+g1 x-11
+g1 y-14
+g1 x-12
+g1 y14
+g1 x-13
+g1 y-14
+g1 x-14
+g1 y14
+g1 x-15
+g1 y-14
+g1 x-16
+g1 y14
+g1 x-17
+g1 y-14
+g1 x-18
+g1 y14
+g1 x-19
+g1 y-14
+g1 x-20
+g1 y14
+g1 x-21
+g1 y-14
+g1 x-22
+g1 y14
+g1 x-23
+g1 y-14
+g1 x-24
+g1 y14
+g1 x-25
+g1 y-14
+g1 x-26
+g1 y14
+g0 z0
+g0 x1 y0 (Mittellinie/center line)
+g1 z-4 f100
+g1 x-26 f250
+g1 x-20 y0.7 (Nopen - Reihe 1/nops line 1)
+g2 x-20 y7.3 i0 j3.3
+g2 x-20 y0.7 i0 j-3.3
+g1 y0
+g1 x-12
+g1 y0.7
+g2 x-12 y7.3 i0 j3.3
+g2 x-12 y0.7 i0 j-3.3
+g1 y0
+g1 x-4
+g1 y0.7
+g2 x-4 y7.3 i0 j3.3
+g2 x-4 y0.7 i0 j-3.3
+g1 y-0.7 (Nopen - Reihe 2/nops line 2)
+g2 x-4 y-7.3 i0 j-3.3
+g2 x-4 y-0.7 i0 j3.3
+g1 y0
+g1 x-12
+g1 y-0.7
+g2 x-12 y-7.3 i0 j-3.3
+g2 x-12 y-0.7 i0 j3.3
+g1 y0
+g1 x-20 
+g1 y-0.7
+g2 x-20 y-7.3 i0 j-3.3
+g2 x-20 y-0.7 i0 j3.3
+g1 y0
+g1 x-15.8 (Restmaterial/cleaning between nops)
+g1 y-14
+g1 y14
+g1 x-16.2
+g1 y-14
+g1 x-7.8
+g1 y14
+g1 x-8.2
+g1 y-14
+g1 x-0.55
+g1 y14
+g1 x-23.6
+g1 y-14
+g1 x-24.8 (Ausschneiden/outside conture)
+g1 z-6 f100
+g1 y-8 f250
+g1 x0.8
+g1 y8
+g1 x-24.8
+g1 y-9
+g1 x0.8
+g1 y9
+g1 x-24.8
+g1 y-10
+g1 x0.8
+g1 y10
+g1 x-24.8
+g1 y-11
+g1 x0.8
+g1 y11
+g1 x-24.8
+g1 y-12
+g1 x0.8
+g1 y12
+g1 x-24.8
+g1 y-13
+g1 x0.8
+g1 y13
+g1 x-24.8
+g1 y-14
+g1 x0.8
+g1 y14
+g1 x-24.8
+g0 z20
+M02
+
+
