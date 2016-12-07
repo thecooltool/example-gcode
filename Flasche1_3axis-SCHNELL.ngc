@@ -1,9 +1,11 @@
 (Material Prototypenschaum oder Wachs, 50x30x15mm, Nullpunkt Mitte und Materialoberseite, 2mm Fräser)
 (material prototype foam or wax, 50x30x15mm, zero point middle and material surface, 2mm milling pit)
+G21
 G0 z2
 G00 X-25.967 Y-14.626 Z2.000
 G00 X0.033 Y0.040 Z2.000
-G01 X0.033 Y0.040 Z-0.160 F200 S30000
+M03 S30000
+G01 X0.033 Y0.040 Z-0.160 F200 
 G01 X-0.078 Y-0.152 Z-0.160
 G01 X-0.189 Y0.425 Z-0.242
 G01 X0.700 Y0.040 Z-0.019

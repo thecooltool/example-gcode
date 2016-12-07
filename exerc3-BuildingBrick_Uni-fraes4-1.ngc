@@ -5,8 +5,10 @@
 (then move down on the Z-axis until you almost touch the material.)
 (now home all axis)
 (turn down the feed override to 40%, then start, after a while you can turn feed override back to 100%)
+G21
 g61
 g0 z2
+M03 S15000
 g0 a0
 g0 x1 y14 (Planen/cleaning surface)
 g1 z-2 f100
