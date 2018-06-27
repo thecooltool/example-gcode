@@ -1,7 +1,7 @@
 (Training file for 3 circles with same diameter but different tool compensations: without, g1 and g42)
 (Note that first you need to define a 1.6mm tool in tool table and then restart emc2!)
 
-m06 t13 (select tool 13: t13 = 1.6mm end mill in tool table)
+m06 t55 (select tool 55: t55 = 1.6mm end mill in tool table)
 g0 z2
 g0 x-5 y0
 
