@@ -1,4 +1,4 @@
-m06 t13 (t13 = 1.6mm end mill in tool table)
+m06 t55 (t55 = 1.6mm end mill in tool table)
 g0 z2
 g1 z-1.6 f50
 g2 x-10 y10 i0 j10 f100
