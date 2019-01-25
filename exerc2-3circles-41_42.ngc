@@ -1,0 +1,40 @@
+(3 circles with the same diamter 6 mm)
+(1st without tool compensation, 2nd with G42 right compensation, 3rd with G41 left compensation)
+
+g21
+g61
+g0 z2
+g0 x0 y0
+
+m06 t55 (1.6 mm diameter milling head)
+
+m3 s14000
+
+g0 x20 y0
+g1 z-1.6 f50
+g2 x14 y0 i-3 j0 f100
+g2 x20 y0 i3 j0
+g0 z2
+
+(circle 2, one full cicle in one step - startpoint = endpoint -, with g42 and g2 -> right side compensation seen in direction of cutting, therefore first positioning inside of cicle required, then compensation on, then startpoint of circle)
+
+g0 x0 y0
+g42
+g0 x3 y0
+g1 z1.6 f50
+g2 x3 y0 i-3 j0 f100
+g0 z2
+g40
+
+(cicle 3, one full cicle in one step, with g41 and g2 -> left side compensation seen in direction of cutting, therefore first positioning outside of cicle required, then compensation on, then startpoint of circle)
+
+g0 x-25 y0
+g41
+g0 x-20 y0
+g1 z-1.6 f50
+g2 x-20 y0 i3 j0 f100
+g0 z5
+g40
+g0 x0 y0
+
+m02
