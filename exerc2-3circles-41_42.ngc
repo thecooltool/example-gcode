@@ -21,7 +21,7 @@ g0 z2
 g0 x0 y0
 g42
 g0 x3 y0
-g1 z1.6 f50
+g1 z-1.6 f50
 g2 x3 y0 i-3 j0 f100
 g0 z2
 g40
