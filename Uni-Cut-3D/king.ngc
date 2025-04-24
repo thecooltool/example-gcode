@@ -1,3 +1,5 @@
+(raw material dimensions: 100x100 mm, height 130 mm; zero points: X-axis= -194 from center of the turning axis; Y-axis= surface turning table)
+(Rohmaterial: 100x100 mm, Hoehe 130 mm; Nullpunkte: X-Achse= -194 vom Mittelpunkt der Drehachse; Y-Achse= Oberflaeche Drehtisch) 
 M03 F100
 G10 L1 P1 R0.5
 T1 
