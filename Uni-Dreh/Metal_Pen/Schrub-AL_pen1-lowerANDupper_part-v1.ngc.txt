@@ -1,0 +1,143 @@
+(raw material: Al-pen-set art.no.: 163910; X-zero: center/turning axis; Z-zero: right raw material edge; tool: HSS-outside turning tool art.no.:162231E)
+(raw material diameter: 14.2;  after running this file, start file: AL_pen1-lower_part-v1 or AL_pen1-upper_part-v1)
+
+(Rohmaterial: Al-Stift-Set Art.-Nr.: 163910; X-Nullpunkt: Mitte/Drehachse; Z-Nullpunkt: rechte Rohmaterialkante; Werkzeug: HSS-Au§endrehwerkzeug art.nr.:162231E)
+(Rohmaterialdurchmesser: 14.2; nach dieser Datei eine dieser Dateien:  AL_pen1-lower_part-v1 oder AL_pen1-upper_part-v1 starten)
+
+(Time: ~24 min)
+
+g21
+g7 (activate diameter mode)
+M03 S10000
+g0 x15
+g0 z1
+g1 x14.1 f25
+g1 z-53 f100
+g0 x14.2
+g0 z1
+g1 x14.0 f25
+g1 z-53 f100
+g0 x14.1
+g0 z1
+g1 x13.9 f25
+g1 z-53 f100
+g0 x14.0
+g0 z1
+g1 x13.8 f25
+g1 z-53 f100
+g0 x13.9
+g0 z1
+g1 x13.7 f25
+g1 z-53 f100
+g0 x13.8
+g0 z1
+g1 x13.6 f25
+g1 z-53 f100
+g0 x13.7
+g0 z1
+g1 x13.5 f25
+g1 z-53 f100
+g0 x13.6
+g0 z1
+g1 x13.4 f25
+g1 z-53 f100
+g0 x13.5
+g0 z1
+g1 x13.3 f25
+g1 z-53 f100
+g0 x13.4
+g0 z1
+g1 x13.2 f25
+g1 z-53 f100
+g0 x13.3
+g0 z1
+g1 x13.1 f25
+g1 z-53 f100
+g0 x13.2
+g0 z1
+g1 x13.0 f25
+g1 z-53 f100
+g0 x13.1
+g0 z1
+g1 x12.9 f25
+g1 z-53 f100
+g0 x13.0
+g0 z1
+g1 x12.8 f25
+g1 z-53 f100
+g0 x12.9
+g0 z1
+g1 x12.7 f25
+g1 z-53 f100
+g0 x12.8
+g0 z1
+g1 x12.6 f25
+g1 z-53 f100
+g0 x12.7
+g0 z1
+g1 x12.5 f25
+g1 z-53 f100
+g0 x12.6
+g0 z1
+g1 x12.4 f25
+g1 z-53 f100
+g0 x12.5
+g0 z1
+g1 x12.3 f25
+g1 z-53 f100
+g0 x12.4
+g0 z1
+g1 x12.2 f25
+g1 z-53 f100
+g0 x12.3
+g0 z1
+g1 x12.1 f25
+g1 z-53 f100
+g0 x12.2
+g0 z1
+g1 x12.0 f25
+g1 z-53 f100
+g0 x13.0
+g0 z1
+g1 x11.9 f25
+g1 z-53 f100
+g0 x12.0
+g0 z1
+g1 x11.8 f25
+g1 z-53 f100
+g0 x11.9
+g0 z1
+g1 x11.7 f25
+g1 z-53 f100
+g0 x11.8
+g0 z1
+g1 x11.6 f25
+g1 z-53 f100
+g0 x11.7
+g0 z1
+g1 x11.5 f25
+g1 z-53 f100
+g0 x11.6
+g0 z1
+g1 x11.4 f25
+g1 z-53 f100
+g0 x11.5
+g0 z1
+g1 x11.3 f25
+g1 z-53 f100
+g0 x11.4
+g0 z1
+g1 x11.2 f25
+g1 z-53 f100
+g0 x11.3
+g0 z1
+g1 x11.1 f25
+g1 z-53 f100
+g0 x11.2
+g0 z1
+g1 x11.0 f25
+g1 z-53 f100
+g0 x30.0
+g0 z2
+
+m02

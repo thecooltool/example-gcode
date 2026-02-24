@@ -1,0 +1,264 @@
+(raw material: Al-pen-set art.no.: 163910; X-zero: center/turning axis; Z-zero: right raw material edge; tool: HSS-outside turning tool art.no.:162231E)
+(run first file: Schrub-AL_pen1-lowerANDupper_part-v1; ==> to get diameter 11.0)
+
+(Rohmaterial: Al-Stift-Set Art.-Nr.: 163910; X-Nullpunkt: Mitte/Drehachse; Z-Nullpunkt: rechte Rohmaterialkante; Werkzeug: HSS-Au§endrehwerkzeug art.nr.:162231E)
+(zuerst Datei: Schrub-AL_pen1-lowerANDupper_part-v1 ausführen; ==> damit der Durchmesser 11.0 beträgt)
+
+(Time: ~20min)
+
+g21
+g7 (activate diameter mode)
+M03 S10000
+g0 x11.5 z2
+g0 z1
+g1 x10.9 f25
+g1 z0 f100
+g1 x11.0 z-15
+g1 z-23
+g1 x10.9 z-52
+g1 z-53
+g0 x11.2
+g0 z1
+
+g1 x10.8 f25
+g1 z0 f100
+g1 x11.0 z-15
+g1 z-23
+g1 x10.8 z-52
+g1 z-53
+g0 x11.2
+g0 z1
+
+g1 x10.7 f25
+g1 z0 f100
+g1 x11.0 z-15
+g1 z-23
+g1 x10.7 z-52
+g1 z-53
+g0 x11.2
+g0 z1
+
+g1 x10.6 f25
+g1 z0 f100
+g1 x11.0 z-15
+g1 z-23
+g1 x10.6 z-52
+g1 z-53
+g0 x11.2
+g0 z1
+
+g1 x10.5 f25
+g1 z0 f100
+g1 x11.0 z-15
+g1 z-23
+g1 x10.5 z-52
+g1 z-53
+g0 x11.2
+g0 z1
+
+g1 x10.4 f25
+g1 z0 f100
+g1 x10.9 z-15
+g1 z-23
+g1 x10.4 z-52
+g1 z-53
+g0 x11.0
+g0 z1
+
+g1 x10.3 f25
+g1 z0 f100
+g1 x10.9 z-15
+g1 z-23
+g1 x10.3 z-52
+g1 z-53
+g0 x11.0
+g0 z1
+
+g1 x10.2 f25
+g1 z0 f100
+g1 x10.9 z-15
+g1 z-23
+g1 x10.2 z-52
+g1 z-53
+g0 x11.0
+g0 z1
+
+g1 x10.1 f25
+g1 z0 f100
+g1 x10.9 z-15
+g1 z-23
+g1 x10.1 z-52
+g1 z-53
+g0 x11.0
+g0 z1
+
+g1 x10.0 f25
+g1 z0 f100
+g1 x10.9 z-15
+g1 z-23
+g1 x10.0 z-52
+g1 z-53
+g0 x11.0
+g0 z1
+
+g1 x9.9 f25
+g1 z0 f100
+g1 x10.8 z-15
+g1 z-23
+g1 x9.9 z-52
+g1 z-53
+g0 x11.0
+g0 z1
+
+g1 x9.8 f25
+g1 z0 f100
+g1 x10.8 z-15
+g1 z-23
+g1 x9.8 z-52
+g1 z-53
+g0 x11.0
+g0 z1
+
+g1 x9.7 f25
+g1 z0 f100
+g1 x10.8 z-15
+g1 z-23
+g1 x9.7 z-52
+g1 z-53
+g0 x11.0
+g0 z1
+
+g1 x9.6 f25
+g1 z0 f100
+g1 x10.8 z-15
+g1 z-23
+g1 x9.6 z-52
+g1 z-53
+g0 x11.0
+g0 z1
+
+g1 x9.5 f25
+g1 z0 f100
+g1 x10.8 z-15
+g1 z-23
+g1 x9.5 z-52
+g1 z-53
+g0 x11.0
+g0 z1
+
+g1 x9.4 f25
+g1 z0 f100
+g1 x10.7 z-15
+g1 z-23
+g1 x9.4 z-52
+g1 z-53
+g0 x10.9
+g0 z1
+
+g1 x9.3 f25
+g1 z0 f100
+g1 x10.7 z-15
+g1 z-23
+g1 x9.3 z-52
+g1 z-53
+g0 x10.9
+g0 z1
+
+g1 x9.2 f25
+g1 z0 f100
+g1 x10.7 z-15
+g1 z-23
+g1 x9.2 z-52
+g1 z-53
+g0 x10.9
+g0 z1
+
+g1 x9.1 f25
+g1 z0 f100
+g1 x10.7 z-15
+g1 z-23
+g1 x9.1 z-52
+g1 z-53
+g0 x10.9
+g0 z1
+
+g1 x9.0 f25
+g1 z0 f100
+g1 x10.7 z-15
+g1 z-23
+g1 x9.0 z-52
+g1 z-53
+g0 x10.9
+g0 z1
+
+g1 x8.9 f25
+g1 z0 f100
+g1 x10.6 z-15
+g1 z-23
+g1 x8.9 z-52
+g1 z-53
+g0 x10.8
+g0 z1
+
+g1 x8.8 f25
+g1 z0 f100
+g1 x10.5 z-15
+g1 z-23
+g1 x8.8 z-52
+g1 z-53
+g0 x10.8
+g0 z1
+
+g1 x8.7 f25
+g1 z0 f100
+g1 x10.4 z-15
+g1 z-23
+g1 x8.7 z-52
+g1 z-53
+g0 x10.8
+g0 z1
+
+g1 x8.6 f25
+g1 z0 f100
+g1 x10.3 z-15
+g1 z-23
+g1 x8.6 z-52
+g1 z-53
+g0 x10.8
+g0 z1
+
+g1 x8.5 f25
+g1 z0 f100
+g1 x10.2 z-15
+g1 z-23
+g1 x8.5 z-52
+g1 z-53
+g0 x10.8
+
+g0 z-50
+g0 x9.2
+g1 x8.46 f10
+g0 x9.2
+
+g0 z-48
+g0 x9.2
+g1 x8.56 f10
+g0 x9.2
+
+g0 z-46
+g0 x9.2
+g1 x8.66 f10
+g0 x9.5
+
+g0 z-44
+g0 x9.2
+g1 x8.74 f10
+g0 x10.8
+
+g0 z-2
+g0 x9.2
+g1 x8.46 f10
+g0 x30
+g0 z2
+
+m02
